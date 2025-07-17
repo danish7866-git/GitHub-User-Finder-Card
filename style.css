@@ -1,0 +1,45 @@
+/* .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    border: 2px solid black;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 2rem;
+}
+
+.form input{
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.button:hover{
+    border-radius: 1.5rem;
+}
+
+.details{
+    padding: 20px;
+    height: 40rem;
+    width: 60rem;
+    margin-left: 15rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+html, body{
+height: 100%;
+width: 100%;
+}
+

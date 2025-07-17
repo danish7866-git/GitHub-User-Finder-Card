@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find GitHub User</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body class="min-h-screen flex flex-col items-center py-10 px-4">
+    <!-- header -->
+    <header class="mb-10 text-center">
+      <h1
+        class="text-2xl font-bold text-center shadow-xl/30 rounded-full py-3 px-8 text-blue-800"
+      >
+        <i>Find Github Users Card</i>
+      </h1>
+    </header>
+
+    <!-- navbar -->
+    <nav
+      class="w-full max-w-3xl bg-white p-5 rounded-3xl shadow-2xl border border-gray-100"
+    >
+      <div class="flex flex-col sm:flex-row gap-4 items-center justify-center">
+        <input
+          type="text"
+          placeholder="Enter GitHub username..."
+          class="usernameinp flex-1 px-5 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-700 shadow-sm placeholder-gray-400"
+        />
+        <button
+          class="search bg-blue-800 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-semibold shadow-lg transition duration-300 ease-in-out"
+        >
+          🔍 Search
+        </button>
+      </div>
+    </nav>
+
+    <!-- Static example GitHub user data -->
+    <section class="mt-12 flex items-center py-10 px-10" id="user-data">
+        <div
+        class="card bg-[url(https://plus.unsplash.com/premium_photo-1701722746732-4521915f0b45?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] flex rounded items-center gap-10 p-5"> 
+        </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
